@@ -3,10 +3,10 @@ Extracting and Visualizing Stock Data using yfinance and Webscraping
 
 Requirements:
   1. Install the required libraries:
-     !pip install yfinance
-     !pip install bs4
-     !pip install nbformat
-     !pip install --upgrade plotly
+     - !pip install yfinance
+     - !pip install bs4
+     - !pip install nbformat
+     - !pip install --upgrade plotly
   2. Import the required libraries:
      import yfinance as yf
      import pandas as pd
@@ -19,7 +19,6 @@ Requirements:
      pio.renderers.default = "iframe"
       
      import warnings
-     # Ignore all warnings
      warnings.filterwarnings("ignore", category=FutureWarning)
 
 Define a Function that Makes a Graph
